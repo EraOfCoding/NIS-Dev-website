@@ -1,0 +1,17 @@
+.error {
+  display: flex;
+  justify-content: center;
+}
+
+.error div h1 {
+  font-size: 50px;
+}
+
+.error div p {
+  font-size: 30px;
+}
+
+.error div h2 {
+  color: rgb(180, 180, 180);
+  font-size: 90px;
+}

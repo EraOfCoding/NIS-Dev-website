@@ -1,0 +1,57 @@
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.about div h1 {
+  font-size: 50px;
+}
+
+.about div p {
+  width: 600px;
+  font-size: 25px;
+}
+
+.about img {
+  width: 100px;
+  height: 100px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+#boribay {
+  display: flex;
+  justify-content: center;
+}
+
+#invite,
+#info {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#invite {
+  background-color: #5d87d6;
+}
+
+#invite:hover {
+  background-color: #577dc4;
+}
+
+#info {
+  background-color: #4cc5a1;
+}
+
+#info:hover {
+  background-color: #44af8f;
+}

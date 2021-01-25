@@ -1,0 +1,103 @@
+.navbar-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding-top: 10px;
+}
+
+.navbar-buttons div h3 {
+  display: inline-block;
+  background-color: none;
+  height: 25px;
+  padding-inline: 10px;
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.navbar-buttons div {
+  display: flex;
+  justify-content: space-around;
+  width: 250px; /* change if you have added more navbar buttons! */
+}
+
+.home-btn:hover,
+.rules-btn:hover,
+.about-btn:hover {
+  border-radius: 5px;
+  background-color: #111418;
+}
+
+/* super buttons:start */
+
+.home-btn-super:hover {
+  border-radius: 5px;
+  background-color: #b36cff;
+}
+
+.rules-btn-super:hover {
+  border-radius: 5px;
+  background-color: rgb(155, 119, 255);
+}
+
+.about-btn-super:hover {
+  border-radius: 5px;
+  background-color: #5d87d6;
+}
+
+.home-btn-super {
+  border-radius: 5px;
+  background-color: #b36cff;
+  color: #111418;
+}
+
+.rules-btn-super {
+  border-radius: 5px;
+  background-color: rgb(155, 119, 255);
+  color: #111418;
+}
+
+.about-btn-super {
+  border-radius: 5px;
+  background-color: #5d87d6;
+  color: #111418;
+}
+
+/* super buttons:end */
+
+.home-btn {
+  color: #b36cff;
+}
+
+.rules-btn {
+  color: rgb(155, 119, 255);
+}
+
+.about-btn {
+  color: #5d87d6;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 60px;
+}
+
+.navbar h1 {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(155, 119, 255);
+}
+
+.navbar {
+  font-size: 19px;
+}
+
+.img-c {
+  display: flex;
+  justify-content: center;
+}

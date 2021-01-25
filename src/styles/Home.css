@@ -1,0 +1,87 @@
+/* .home-btn {
+  border-radius: 5px;
+  background-color: #b36cff;
+  color: #111418;
+}
+
+.home-btn:hover {
+  background-color: #b36cff;
+} */
+
+.join,
+.learn {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: x-large;
+}
+
+.info {
+  padding-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.join div,
+.learn div {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.info div {
+  padding-left: 50px;
+  padding-bottom: 30px;
+  width: 300px;
+}
+
+.info div h1 {
+  font-size: 26px;
+  width: 400px;
+}
+
+.info div p {
+  width: 260px;
+  font-size: large;
+}
+
+.join div p,
+.learn div p {
+  width: 500px;
+  font-size: 30px;
+}
+
+.learn div p {
+  padding-right: 10px;
+}
+
+.join div button {
+  font-size: 25px;
+  font-weight: 600;
+  width: 300px;
+  height: 60px;
+  background-color: rgb(156, 77, 235);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.join div button:hover {
+  background-color: rgb(137, 62, 212);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.join img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.learn img {
+  width: 340px;
+  padding-top: 33px;
+}

@@ -1,0 +1,21 @@
+.space {
+  background-color: #14171b;
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.space h1 {
+  height: 25px;
+  padding-right: 160px;
+  color: #b36cff;
+}
+
+.space h3 {
+  padding-top: 10px;
+}
+
+.space div h2 {
+  color: rgb(221, 221, 221);
+}

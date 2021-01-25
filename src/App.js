@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Home from './components/Home'
+import Rules from './components/Rules'
+import About from './components/About'
+import Space from './components/Space'
+import Error from './components/Error'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor () {
+    super()
+    this.state = {
+      update_data: '24/01/2021' // change whenever you update website
+    }
+  }
+  render() {
+    return (
+      <Router>
+        <div>
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/rules" component={Rules}/>
+            <Route path="/about" component={About}/>
+            <Route path="*" component={Error}/>
+          </Switch>
+          <Space update_data = {this.state.update_data}/>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
