@@ -24,10 +24,9 @@ class Home extends React.Component {
                             <h1>Learn programming</h1>
                             <p>In NIS dev you can meet a lot of developers and learn bunch of things</p>
                         </div>
-                        <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"/>
-                        {/* <iframe width="360" height="205" src="https://www.youtube.com/embed/PkZNo7MFNFg" 
+                        <iframe width="365" height="205" src="https://www.youtube.com/embed/PkZNo7MFNFg" 
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                        gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+                        gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div className="info">
                         <div>
