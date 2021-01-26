@@ -10,7 +10,7 @@ class App extends React.Component {
   constructor () {
     super()
     this.state = {
-      update_data: '24/01/2021' // change whenever you update website
+      update_data: '26/01/2021' // change whenever you update website
     }
   }
   render() {
