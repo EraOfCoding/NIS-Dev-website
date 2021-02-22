@@ -1,6 +1,6 @@
 # This is my website for NIS Dev discord server
 
-If you have any suggestions please contact me: [email](yerassyl.abylkassym@gmail.com).
+If you have any suggestions please contact me: yerassyl.abylkassym@gmail.com.
 
 
 # Getting Started with Create React App
