@@ -1,3 +1,8 @@
+# This is my website for NIS Dev discord server
+
+If you have any suggestions please contact me: yerassyl.abylkassym@gmail.com.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
