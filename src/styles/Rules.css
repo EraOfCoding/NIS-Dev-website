@@ -21,3 +21,12 @@
   font-size: 25px;
   font-weight: 500;
 }
+
+@media only screen and (max-width: 900px) {
+  .rules div p {
+    padding-left: 10px;
+  }
+  .rules div h1 {
+    padding-left: 10px;
+  }
+}

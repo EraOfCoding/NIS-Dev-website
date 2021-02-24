@@ -1,12 +1,7 @@
-/* .home-btn {
-  border-radius: 5px;
-  background-color: #b36cff;
-  color: #111418;
+.home {
+  width: auto;
+  padding-top: 10px;
 }
-
-.home-btn:hover {
-  background-color: #b36cff;
-} */
 
 .join,
 .learn {
@@ -18,10 +13,9 @@
 }
 
 .info {
-  padding-left: 60px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .join div,
@@ -38,7 +32,8 @@
 
 .info div h1 {
   font-size: 26px;
-  width: 400px;
+  max-width: 400px;
+  width: 250px;
 }
 
 .info div p {
@@ -48,12 +43,13 @@
 
 .join div p,
 .learn div p {
-  width: 500px;
+  max-width: 500px;
+  min-width: 300px;
   font-size: 30px;
 }
 
 .learn div p {
-  padding-right: 10px;
+  /* padding-right: 10px; */
 }
 
 .join div button {
@@ -83,4 +79,21 @@
 
 .learn iframe {
   padding-top: 27px;
+}
+
+@media only screen and (max-width: 900px) {
+  .join,
+  .learn,
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .join div p,
+  .learn div p {
+    width: 300px;
+    font-size: 30px;
+  }
+  .info {
+    padding-top: 30px;
+  }
 }

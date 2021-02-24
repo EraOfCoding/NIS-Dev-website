@@ -1,3 +1,7 @@
+.navbar {
+  width: auto;
+}
+
 .navbar-buttons {
   display: flex;
   flex-direction: row;

@@ -5,10 +5,11 @@
 
 .about div h1 {
   font-size: 50px;
+  max-width: 400px;
 }
 
 .about div p {
-  width: 600px;
+  max-width: 600px;
   font-size: 25px;
 }
 
@@ -26,6 +27,7 @@
 #boribay {
   display: flex;
   justify-content: center;
+  max-width: 500px;
 }
 
 #invite,
@@ -54,4 +56,23 @@
 
 #info:hover {
   background-color: #44af8f;
+}
+
+@media only screen and (max-width: 800px) {
+  .about h1 {
+    width: 250px;
+  }
+  .about p {
+    width: 280px;
+  }
+  #invite,
+  #info {
+    width: 100px;
+  }
+  #boribay h2 {
+    width: 200px;
+  }
+  #boribay > div {
+    width: 210px;
+  }
 }
