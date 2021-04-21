@@ -14,9 +14,9 @@ class Home extends React.Component {
                     <div className="join">
                         <img src={nis_dev}/>
                         <div>
-                            <h1>Become NIS developer</h1>
+                            <h1>Become a NIS developer</h1>
                             <p>Join to NIS Developers discord server and become part of our community.</p>
-                            <button onClick={() => window.open("https://discord.gg/5QFteFzMn4", "_blank")}>JOIN</button>
+                            <button onClick={() => window.open("https://discord.gg/phWucQpy", "_blank")}>JOIN</button>
                         </div>
                     </div> 
                     <div className="learn">
